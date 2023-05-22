@@ -1,0 +1,85 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient( red, blue) no-repeat;
+  }
+  
+.head{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pap1, .pap2, .pap3, .pap4,.pap5{
+    margin: 2rem 0 0  0px; 
+    padding: 0.5rem 2rem;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 238, 6);
+    background-color: rgb(255, 238, 6);
+
+}
+.cen{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+#Cake{
+
+    width: 600px;
+    height: 380px;
+  
+}
+.cen > .image > .txt{
+    position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+    background-color: rgb(226, 157, 29);
+    font-weight: bolder;
+    color: rgb(99, 92, 81);
+    top: 13rem;
+    right: 53rem;
+    padding: 1.5px;
+
+}
+
+
+.first, .second{
+    display: flex;
+    color:black;
+    width: 503px;
+    height: 180px;
+    background-color: rgb(255, 238, 6);
+    margin-left: 1rem;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second{
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    column-gap: 5px;
+}
+.box1,.box2,.box3,.box4{
+
+    border: 1px solid darkgoldenrod;
+    background-color: darkgoldenrod;
+}
+p:hover{
+    background-color: lawngreen;
+    text-transform: capitalize;
+    font-size: 150%;
+}
+
